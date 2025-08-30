@@ -118,25 +118,6 @@ nav a:hover:after {
   cursor: pointer;
 }
 
-/* Theme Toggle Button */
-.theme-toggle {
-  background: rgba(255, 255, 255, 0.2);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s ease;
-}
-
-.theme-toggle:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
 .header-right {
   display: flex;
   align-items: center;
@@ -190,6 +171,14 @@ section:nth-child(even) {
   font-size: 1.1rem;
   color: var(--gray);
   transition: color 0.3s ease;
+}
+.profile-photo {
+  padding: auto;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Projects Section */
